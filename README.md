@@ -29,7 +29,7 @@ Before you begin, ensure you have the following installed:
    ```bash
    pip install -r requirements.txt
 
-   Alternatively, if a requirements.txt file is not provided, install the dependencies directly:
+Alternatively, if a requirements.txt file is not provided, install the dependencies directly:
 
    ```bash
    pip install dash numpy plotly joblib
@@ -38,8 +38,8 @@ Before you begin, ensure you have the following installed:
 
 To run the dashboard locally, execute the following command in the terminal:
 
-```bash
-python app.py
+   ```bash
+   python app.py
 
 This command starts the server. You can then access the dashboard by navigating to http://127.0.0.1:8050/ in your web browser.
 
