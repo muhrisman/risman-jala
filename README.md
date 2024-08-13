@@ -34,6 +34,7 @@ Alternatively, if a requirements.txt file is not provided, install the dependenc
    ```bash
    pip install dash numpy plotly joblib
 
+
 ## Usage
 
 To run the dashboard locally, execute the following command in the terminal:
