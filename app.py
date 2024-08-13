@@ -5,12 +5,12 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 
+app = dash.Dash(__name__)
+server = app.server
+
 # Load your trained models (make sure the paths are correct)
 model_sr = load('model_sr.pkl')
 model_abw = load('model_abw.pkl')
-
-app = dash.Dash(__name__)
-server = app.server
 
 # Default input values
 default_values = {
