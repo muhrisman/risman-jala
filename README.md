@@ -23,17 +23,22 @@ Before you begin, ensure you have the following installed:
 2. **Set up a Python Virtual Environment**
    ```bash
    python -m venv shrimp_env
-shrimp_env\Scripts\activate
+   shrimp_env\Scripts\activate
 
 3. **Install Required Packages**
+   ```bash
    pip install -r requirements.txt
-Alternatively, if a requirements.txt file is not provided, install the dependencies directly:
-pip install dash numpy plotly joblib
+
+   Alternatively, if a requirements.txt file is not provided, install the dependencies directly:
+
+   ```bash
+   pip install dash numpy plotly joblib
 
 ## Usage
 
 To run the dashboard locally, execute the following command in the terminal:
 
+```bash
 python app.py
 
 This command starts the server. You can then access the dashboard by navigating to http://127.0.0.1:8050/ in your web browser.
