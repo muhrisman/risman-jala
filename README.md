@@ -14,37 +14,36 @@ Before you begin, ensure you have the following installed:
 
 ### Installation
 
-1. **Clone the Repository**
+   1. **Clone the Repository**
 
-   ```bash
-   git clone https://github.com/muhrisman/risman-jala.git
-   cd risman-jala
+      ```bash
+      git clone https://github.com/muhrisman/risman-jala.git
+      cd risman-jala
 
-2. **Set up a Python Virtual Environment**
-   ```bash
-   python -m venv shrimp_env
-   shrimp_env\Scripts\activate
+   2. **Set up a Python Virtual Environment**
+      ```bash
+      python -m venv shrimp_env
+      shrimp_env\Scripts\activate
 
-3. **Install Required Packages**
-   ```bash
-   pip install -r requirements.txt
+   3. **Install Required Packages**
+      ```bash
+      pip install -r requirements.txt
 
-Alternatively, if a requirements.txt file is not provided, install the dependencies directly:
+   Alternatively, if a requirements.txt file is not provided, install the dependencies directly:
 
-   ```bash
-   pip install dash numpy plotly joblib
+      ```bash
+      pip install dash numpy plotly joblib
 
+### Usage
 
-## Usage
+   To run the dashboard locally, execute the following command in the terminal:
 
-To run the dashboard locally, execute the following command in the terminal:
-
-   ```bash
-   python app.py
+      ```bash
+      python app.py
 
 This command starts the server. You can then access the dashboard by navigating to http://127.0.0.1:8050/ in your web browser.
 
-## Features
+### Features
 
 - **Interactive Inputs**: Customize parameters such as the number of days until harvest, seed count, pond area, feed quantity, and various environmental conditions directly through the interface.
 - **Real-time Predictions**: The dashboard updates its predictions on survival rates, body weight, biomass, and revenue in real-time as input parameters are adjusted.
